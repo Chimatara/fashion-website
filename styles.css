@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    width: 100vw;
+    background: #F8F0F0;
+    overflow-x: hidden;
+}
+nav{
+    width: 100%;
+    background: #f8f8f8;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    position: fixed;
+    z-index: 999;
+}
+.nav-item{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    height: inherit;
+}
+.menu-lists a{
+   text-decoration: none;
+   color: #f8f8f8;
+   font-weight: 500;
+   background: #1b1c1e;
+   padding: 10px;
+   border-radius: 10px;
+   cursor: pointer;
+}
+.menu-lists a:active{
+    color: #ffa500;
+}
+.background{
+    position: relative;
+    background-image: url(./img/pexels-jorge-fakhouri-filho-2701660.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.hero-text{
+    position: absolute;
+    color: white;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+}
+.hero-text h1{
+    font-size: 4rem;
+    font-weight: bolder;
+    color: #ffa500;
+    padding-bottom: 20px;
+}
+.hero-text .btn{
+    padding: 10px;
+    background: #ffa500;
+    color: #f8f8f8;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    margin: auto;
+}
+.hero-text .btn:active{
+    color: #1b1c1e;
+}
+main{
+    width: 100%;
+    height: fit-content;
+}
+.colors{
+    display: flex;
+    gap: 15px;
+    width: 90%;
+    margin: 100px auto 20px auto;
+}
+.color1,
+.color2,
+.color3{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+.color1{
+    background: #ffa500;
+}
+.color2{
+    background: #121212;
+}
+.color3{
+    background: #FF000F;
+}
+.section-one{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    margin: auto;
+}
+.intro{
+    width: 50%;
+}
+.intro h2{
+    font-size: 3rem;
+    padding-bottom: 15px;
+}
+.intro p{
+    line-height: 1.5;
+}
+.model-one{
+    width: 40%;
+    height: 350px;
+    display: flex;
+    justify-content: flex-end; 
+}
+.model-one img{
+    width: 80%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 0 150px 0 0;
+}
+.tagline{
+    width: 77%;
+    margin: auto;
+    margin-top: 150px;
+    display: flex;
+    justify-content: flex-end;;
+}
+.tagline p{
+    border-left: 5px solid #FF000F;
+    padding-left: 20px;
+}
+
+.section-two{
+    position: relative;
+    width: 90%;
+    height: 300px;
+    margin:100px auto 20px auto;
+    background: #FFB1BF;
+}
+.model-two{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 100px;
+}
+.model-two img{
+    width: 100%;
+}
+.section-three{
+    width: 100%;
+    height: fit-content;
+    margin-top: 50px;
+}
+.models{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.updates{
+    width: calc(100% / 3);
+    background: #121212;
+    color: #f8f8f8;
+    font-size: 2rem;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    height: 250px;
+    letter-spacing: 5;
+    margin-top: 30px;
+}
+.updates span{
+    border: 1px solid #FF000F;
+    border-radius: 50%;
+    padding: 3px;
+    color: #FF000F;
+    font-size: 1.5rem;
+}
+.model-three{
+    position: relative;
+    width: calc(100% / 3);
+    background: #ffa500;
+    height: 350px;
+}
+.model-three img{
+    position: absolute;
+    top: -49.1%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 75%;
+}
+.model-four{
+    width: calc(100% / 3 - 50px);
+    background: #FF000F;
+    margin-top: 30px;
+    height: 300px;
+}
+.model-four img{
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+}
+footer{
+    width: 100vw;
+   margin-top: 100px;
+    text-align: center;
+    font-weight: bold;
+    opacity: 0.8;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 1.5rem;
+}
+.icons a{
+    text-decoration: none;
+    color: #121212;
+}
+footer p{
+    padding: 20px 0;
+}
+
+
+
+
+
+
+
